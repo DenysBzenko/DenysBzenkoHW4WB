@@ -166,7 +166,7 @@ nav a:last-child:hover {
     font-size: 48px;
     font-style: normal;
     font-weight: 400;
-    line-height: 64px; /* 133.333% */
+    line-height: 64px; 
    
 }
 .answ{
@@ -176,7 +176,7 @@ nav a:last-child:hover {
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px; /* 133.333% */
+    line-height: 32px; 
   
 }
 .Blur{
@@ -185,7 +185,7 @@ nav a:last-child:hover {
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px; /* 133.333% */
+    line-height: 32px; 
    
 }
 .small{
@@ -194,6 +194,55 @@ nav a:last-child:hover {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px; /* 160% */
-    
+    line-height: 32px;  
+}
+.image-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    height: 100vh;           
+    width: 100vw;           
+}
+.circle-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.large-circle {
+    position: absolute;
+    width: 150%; 
+    height: 150%;
+    background-color: #000D40;
+    top: 60%;
+    border-radius: 50%;
+    bottom: -25%; 
+    z-index: -1; 
+}
+.Illustration {
+    z-index: 1;
+}
+.cnt{
+    margin-left: 10px;
+    padding: 10px 15px;
+    background-color: #129AFE;
+    color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.cnt:hover{
+    background-color: #2f83b3;
+}
+.textt{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    color: white
 }
