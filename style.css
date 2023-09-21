@@ -264,26 +264,25 @@ nav a:last-child:hover {
     vertical-align: top; 
     text-align: left;
 }
+
 .info-table .first img.botowlog {
     display: inline-block; 
     margin-right: 10px; 
-    position: absolute;  
-    top: 50%;  
-    left: 20px;  
-    transform: translateY(-50%);  
-    margin-right: 10px; 
 }
+
 .info-table .first p:first-of-type {
     display: inline-block;
-    padding-left: 50px; 
 }
+
 .info-table td:not(.first) {
     text-align: left;
 }
+
 .info-table .first p:last-of-type {
     display: block; 
     margin-top: 50px;
 }
+
 .info-table h3 {
     color:  #FFF;
     font-family: 'Aleo', sans-serif; 
@@ -292,8 +291,9 @@ nav a:last-child:hover {
     font-weight: 400;
     line-height: 32px;
     text-align: left;
-    nav-down: 20px;
+    margin-top: 0;
 }
+
 .info-table p{
     color:  #FFF;
     font-family: Aleo;
@@ -303,22 +303,31 @@ nav a:last-child:hover {
     line-height: 24px; 
     text-align: left;
 }
+
 .info-table {
     width: 100%; 
     border-collapse: collapse; 
     text-align: center; 
     margin: 10px 0;
 }
+
 .info-table td {
-    position: relative;  
     padding: 20px;
 }
+
 .botowlog {
     display: block; 
-    margin: left; 
+    margin-left: 0;  
     width: 30px; 
 }
-.NTF, .search-btn {
-    margin: 20px 0; 
+
+.NTF {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 300px;
+    outline: none; 
 }
+
 
