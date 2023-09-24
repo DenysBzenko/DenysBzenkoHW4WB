@@ -180,7 +180,7 @@ nav a:last-child:hover {
     text-align: center;
 }
 .pharag {
-    text-align: left; /* Це гарантує, що блок вирівняний зліва */
+    text-align: left; 
     width: 70%; 
 }
 .pharag p {
@@ -329,5 +329,48 @@ nav a:last-child:hover {
     width: 300px;
     outline: none; 
 }
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+
+    .logo-container, nav {
+        margin-bottom: 10px;
+    }
+
+    nav a {
+        margin: 5px;
+    }
+
+    .middle {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .search-input {
+        width: 100%;
+    }
+
+    .pharag {
+        width: 100%;
+    }
+
+    .pharag p {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .cnt {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .image-container, .circle-container {
+        height: auto;
+        padding: 20px 0;
+    }
+}
+
 
 
